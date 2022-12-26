@@ -1,0 +1,23 @@
+body{
+    background-color: #051D3B;
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    max-height: 1024px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+.box-dev-logo{
+    background-color: aliceblue;
+    border-radius: 0.2rem;
+    width: 3.5rem;
+    text-align: center;
+}
