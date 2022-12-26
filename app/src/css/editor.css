@@ -9,6 +9,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
+    margin-top: 1.4rem;
 }
 .logo{
     display: flex;
@@ -20,4 +21,33 @@ header{
     border-radius: 0.2rem;
     width: 3.5rem;
     text-align: center;
+}
+
+.search input{
+    margin-left: 12rem;
+    width: 35rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 0.3rem;
+    color: white;
+    
+}
+
+.search form{
+    opacity: 0.5;
+}
+
+.perfis{
+    border: 1px solid white;
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    margin-left: 19rem;
+    border-radius: 4rem;
+}
+
+.namePerson{
+    margin-left: 0.6rem;
+    padding-top: 0.4rem;
+    color: #FFFFFF;
 }
